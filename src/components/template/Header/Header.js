@@ -1,6 +1,7 @@
 import React from "react"
 import Button from "../../micro/Button/Button"
 import Input from "../../micro/Forms/Input/Input"
+// import ProfileImg from "../../../assets/images/profile_img.jpg"
 
 function Header(props) {
 
@@ -11,7 +12,7 @@ function Header(props) {
                     <div className="navbar user-panel-top">
                         <div className="search-box">
                             <form action="#search-results.html" method="get">
-                                <Input className="search-input" placeholder="Search Here..." type="search" id="search" />
+                                <Input className="search-input" type="text" id="search" placeholder="Search..." />
                                 <Button className="search-submit" value=""/><span className="fa fa-search"></span>
                             </form>
                         </div>
@@ -22,7 +23,7 @@ function Header(props) {
                                     <a href="#" className="dropdown-toggle" data-toggle="dropdown" id="dropdownMenu3" aria-haspopup="true"
                                         aria-expanded="false">
                                         <div className="profile_img">
-                                            <img src="./assets" className="rounded-circle" alt="" />
+                                            {/* <img className="rounded-circle" alt="" src={ProfileImg} /> */}
                                             <div className="user-active">
                                                 <span></span>
                                             </div>

@@ -4,7 +4,7 @@ function Index(props) {
 
     return (
         <>
-        
+        <body class="sidebar-menu-collapsed">
 
             <div className="main-content">
 
@@ -106,6 +106,8 @@ function Index(props) {
                 </div>
 
             </div>
+
+            </body>
      
         </>
     )

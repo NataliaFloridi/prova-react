@@ -10,12 +10,14 @@ import { BrowserRouter as Router } from "react-router-dom";
 function App() {
   return (
       <>
+          <body class="sidebar-menu-collapsed">   
         <Sidebar/>
         <Header/>
         <Router>
           <Routes/>
         </Router>
         <Footer/>
+        </body>   
       </>
   );
 }
