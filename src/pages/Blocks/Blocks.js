@@ -1,6 +1,9 @@
 import React from "react";
 import Template2 from "../../assets/images/template2.jpg"
 import Template1 from "../../assets/images/template1.jpg"
+import { Link } from 'react-router-dom'
+import Blocks1 from "../../components/macro/Blocks/Block1";
+
 
 
 function Blocks(props) {
@@ -12,8 +15,8 @@ function Blocks(props) {
 {/*                     <!-- breadcrumbs --> */}
                     <nav aria-label="breadcrumb" className="mb-4">
                         <ol className="breadcrumb my-breadcrumb">
-                            <li className="breadcrumb-item"><a href="index.html">Home</a></li>
-                            <li className="breadcrumb-item"><a href="#">Elements</a></li>
+                            <li className="breadcrumb-item"><Link to={'/home'}>Home</Link></li>
+                            <li className="breadcrumb-item"><Link to={'/#'}>Elements</Link></li>
                             <li className="breadcrumb-item active" aria-current="page">Content Blocks</li>
                         </ol>
                     </nav>
@@ -26,26 +29,7 @@ function Blocks(props) {
                     {/* <!-- //card heading --> */}
 
                     {/* <!-- content block 1--> */}
-                    <div className="card card_border p-lg-5 p-3 mb-4">
-                        <div className="card-body py-3 p-0">
-                            <div className="row">
-                                <div className="col-lg-6 align-self pr-lg-4">
-                                    <h3 className="block__title mb-lg-4">About Content Block</h3>
-                                    <p className="mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusa ntium corrupti
-                                        neque sunt labore veritatis. </p>
-                                    <p className="mb-lg-5 mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusa ntium corrupti
-                                        neque sunt
-                                        praesentium aut, labore veritatis. Eaque, similique aspernatur. Perferendis doloremque ut
-                                        praesentium vel voluptatum quasi dolor explicabo nobis ex?</p>
-                                    <a href="#read" className="btn btn-style btn-primary"> Read More</a>
-                                </div>
-                                <div className="col-lg-6 pl-lg-4 mt-lg-0 mt-4">
-                                    <img src={Template2} alt="" className="img-fluid rounded" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/* <!-- //content block 1--> */}
+                 <Blocks1/>
 
                     {/* <!-- content block  2--> */}
                     <div className="card card_border p-lg-5 p-3 mb-4">
@@ -62,8 +46,8 @@ function Blocks(props) {
                                         praesentium vel voluptatum quasi dolor explicabo nobis ex?</p>
                                     <p className="mb-lg-5 mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusa ntium corrupti
                                         neque sunt labore veritatis.</p>
-                                    <a href="#read" className="btn btn-style btn-primary mr-2"> Read More</a>
-                                    <a href="#more" className="btn btn-style border-btn"> Contact Us</a>
+                                    <Link to={'/read'} className="btn btn-style btn-primary mr-2"> Read More</Link>
+                                    <Link to={'/more'} className="btn btn-style border-btn"> Contact Us</Link>
                                 </div>
                             </div>
                         </div>
@@ -77,31 +61,31 @@ function Blocks(props) {
                             <div className="row feature-3 text-center">
                                 <div className="col-md-4 three-grids-columns mt-5">
                                     <span className="fa fa-laptop icon-fea" aria-hidden="true"></span>
-                                    <a href="#">
+                                    <Link to={'/#'}>
 
                                         <h4>Web Design</h4>
-                                    </a>
+                                    </Link>
                                     <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur.</p>
 
-                                    <a href="#" className="actionbg">Read More</a>
+                                    <Link to={'/#'}className="actionbg">Read More</Link>
                                 </div>
                                 <div className="col-md-4 three-grids-columns mt-5">
                                     <span className="fa fa-paint-brush icon-fea" aria-hidden="true"></span>
-                                    <a href="#">
+                                    <Link to={'/#'}>
 
                                         <h4>Graphic Design</h4>
-                                    </a>
+                                    </Link>
                                     <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur.</p>
-                                    <a href="#" className="actionbg">Read More</a>
+                                    <Link to={'/#'} className="actionbg">Read More</Link>
                                 </div>
                                 <div className="col-md-4 three-grids-columns mt-5">
                                     <span className="fa fa-signal icon-fea" aria-hidden="true"></span>
-                                    <a href="#">
+                                    <Link to={'/#'}>
 
                                         <h4>Web Development</h4>
-                                    </a>
+                                    </Link>
                                     <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur.</p>
-                                    <a href="#" className="actionbg">Read More</a>
+                                    <Link to={'/#'} className="actionbg">Read More</Link>
                                 </div>
                             </div>
                         </div>
@@ -117,22 +101,22 @@ function Blocks(props) {
                                     <div className="row cwp23-text-cols">
                                         <div className="col-md-6 column mt-4">
                                             <span className="fa fa-laptop icon-fea" aria-hidden="true"></span>
-                                            <a href="#url">Web design</a>
+                                            <Link to={'/url/'}>Web design</Link>
                                             <p>Type your text here... Lorem ipsum dolor sit amet. </p>
                                         </div>
                                         <div className="col-md-6 column mt-4">
                                             <span className="fa fa-paint-brush icon-fea" aria-hidden="true"></span>
-                                            <a href="#url">Graphic design</a>
+                                            <Link to={'/url/'}>Graphic design</Link>
                                             <p>Type your text here... Lorem ipsum dolor sit amet. </p>
                                         </div>
                                         <div className="col-md-6 column mt-4">
                                             <span className="fa fa-signal icon-fea" aria-hidden="true"></span>
-                                            <a href="#url">Web development</a>
+                                            <Link to={'/url/'}>Web development</Link>
                                             <p>Type your text here... Lorem ipsum dolor sit amet. </p>
                                         </div>
                                         <div className="col-md-6 column mt-4">
                                             <span className="fa fa-laptop icon-fea" aria-hidden="true"></span>
-                                            <a href="#url">Webdesign</a>
+                                            <Link to={'/url/'}>Webdesign</Link>
                                             <p>Type your text here... Lorem ipsum dolor sit amet. </p>
                                         </div>
                                     </div>

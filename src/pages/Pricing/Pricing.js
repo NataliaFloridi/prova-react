@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 function Pricing(props) {
 
@@ -11,7 +12,7 @@ function Pricing(props) {
 
                     <nav aria-label="breadcrumb" class="mb-4">
                         <ol class="breadcrumb my-breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><Link to={'/home/'} >Home</Link></li>
                             <li class="breadcrumb-item active" aria-current="page">Pricing Tables</li>
                         </ol>
                     </nav>
@@ -47,8 +48,8 @@ function Pricing(props) {
                                                         <li>Help center access</li>
                                                     </ul>
                                                     <div class ="mt-4">
-                                                        <a href="signup.html" class ="btn btn-lg btn-outline-primary btn-style border-btn">Sign up for
-                                                        free</a>
+                                                        <Link to={'/signup/'} class ="btn btn-lg btn-outline-primary btn-style border-btn">Sign up for
+                                                        free</Link>
                                                     </div>
                                                  </div>
                                             </div>
@@ -72,7 +73,7 @@ function Pricing(props) {
                                                         <li>Help center access</li>
                                                     </ul>
                                                     <div class ="mt-4">
-                                                        <a href="#" class ="btn btn-lg btn-primary btn-style">Get started</a>
+                                                        <Link to={'/#/'} class ="btn btn-lg btn-primary btn-style">Get started</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -96,7 +97,7 @@ function Pricing(props) {
                                                         <li>Help center access</li>
                                                     </ul>
                                                     <div class ="mt-4">
-                                                        <a href="#" class ="btn btn-lg btn-outline-primary btn-style border-btn">Contact us</a>
+                                                    <Link to={'/#/'} class ="btn btn-lg btn-outline-primary btn-style border-btn">Contact us</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -132,7 +133,7 @@ function Pricing(props) {
                                                     <li class="list-group-item">Limited UI Blocks</li>
                                                     <li class="list-group-item">24/7 Support System</li>
                                                 </ul>
-                                                <a href="#" class="btn btn-style btn-primary mt-4">Choose Plan</a>
+                                                <Link to={'/#/'} class="btn btn-style btn-primary mt-4">Choose Plan</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -154,7 +155,7 @@ function Pricing(props) {
                                                     <li class="list-group-item">Unlimited UI Blocks</li>
                                                     <li class="list-group-item">24/7 Support System</li>
                                                 </ul>
-                                                <a href="#" class="btn btn-style btn-primary mt-4">Choose Plan</a>
+                                                <Link to={'/#/'} class="btn btn-style btn-primary mt-4">Choose Plan</Link>
                                             </div>
                                         </div>
                                     </div>
@@ -176,7 +177,7 @@ function Pricing(props) {
                                                     <li class="list-group-item">Unlimited UI Blocks</li>
                                                     <li class="list-group-item">24/7 Support System</li>
                                                 </ul>
-                                                <a href="#" class="btn btn-style btn-primary mt-4">Choose Plan</a>
+                                                <Link to={'/#/'} class="btn btn-style btn-primary mt-4">Choose Plan</Link>
                                             </div>
                                         </div>
                                     </div>
