@@ -1,12 +1,11 @@
 import React from "react";
-import Header from "../../components/template/Header/Header";
-import Footer from "../../components/template/Footer/Footer";
-import Sidebar from "../../components/template/Sidebar/Sidebar";
 
 function Index(props) {
 
     return (
         <>
+        
+
             <div className="main-content">
 
                 <div className="container-fluid content-top-gap">
@@ -107,6 +106,7 @@ function Index(props) {
                 </div>
 
             </div>
+     
         </>
     )
 }
