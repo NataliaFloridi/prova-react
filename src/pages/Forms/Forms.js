@@ -29,7 +29,7 @@ function Forms(props) {
                         <form action="#" method="post">
                         <div className="form-group">
                             <label for="exampleInputEmail1" className="Input__label">Email address</label>
-                            <Input type="email" className="form-control Input-style" id="exampleInputEmail1"
+                            <Input name="e-mail" type="email" className="form-control Input-style" id="exampleInputEmail1"
                             aria-describedby="emailHelp" placeholder="Enter email"/>
                             <small id="emailHelp" className="form-text text-muted">We'll never share your email with
                             anyone else.</small>
@@ -101,17 +101,12 @@ function Forms(props) {
                     </div>
                     {/* <!-- //forms 2 --> */}
 
-
-
                 </section>
         
-              
-        
-
-                </div>
+            </div>
             
 
-                </div>
+            </div>
      
         </>
     )

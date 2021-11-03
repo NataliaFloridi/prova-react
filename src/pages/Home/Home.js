@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 function Index(props) {
 
@@ -12,7 +13,7 @@ function Index(props) {
 
                     <nav aria-label="breadcrumb">
                         <ol className="breadcrumb my-breadcrumb">
-                            <li className="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li className="breadcrumb-item"><Link to={'/home/'}>Home</Link></li>
                             <li className="breadcrumb-item active" aria-current="page">Dashboard</li>
                         </ol>
                     </nav>

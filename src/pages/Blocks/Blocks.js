@@ -1,4 +1,6 @@
 import React from "react";
+import Template2 from "../../assets/images/template2.jpg"
+import Template1 from "../../assets/images/template1.jpg"
 
 
 function Blocks(props) {
@@ -38,7 +40,7 @@ function Blocks(props) {
                                     <a href="#read" className="btn btn-style btn-primary"> Read More</a>
                                 </div>
                                 <div className="col-lg-6 pl-lg-4 mt-lg-0 mt-4">
-                                    <img src="assets/images/template2.jpg" alt="" className="img-fluid rounded" />
+                                    <img src={Template2} alt="" className="img-fluid rounded" />
                                 </div>
                             </div>
                         </div>
@@ -50,7 +52,7 @@ function Blocks(props) {
                         <div className="card-body py-3 p-0">
                             <div className="row">
                                 <div className="col-lg-6 pr-lg-4">
-                                    <img src="assets/images/template1.jpg" alt="" className="img-fluid rounded" />
+                                    <img src={Template1} alt="" className="img-fluid rounded" />
                                 </div>
                                 <div className="col-lg-6 align-self pl-lg-4 mt-lg-0 mt-4">
                                     <h3 className="block__title mb-lg-4">Content Block with 2 buttons</h3>
@@ -136,7 +138,7 @@ function Blocks(props) {
                                     </div>
                                 </div>
                                 <div className="col-md-6 mt-md-0 mt-5 cwp23-img">
-                                    <img src="assets/images/template2.jpg" className="img-fluid rounded" alt=""/>
+                                    <img src={Template2} className="img-fluid rounded" alt=""/>
                                 </div>
                             </div>
                         </div>

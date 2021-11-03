@@ -9,14 +9,12 @@ import Forms from "./pages/Forms/Forms"
 export const Routes = () => {
     return (
         <Switch>
-            <Route path="/" component={Home} exact/>
-            <Route path="/home" component={Home}/>
-            <Route path="/pricing" component={Pricing}/>
-            <Route path="/blocks" component={Blocks}/>
-            <Route path="/cards" component={Cards}/>
-            <Route path="/forms" component={Forms}/>
-
-            {/* <Route path="/search" component={Search}/> */}
+            <Route path='/' component={Home} exact/>
+            <Route path='/home' component={Home}/>
+            <Route path='/pricing' component={Pricing}/>
+            <Route path='/blocks' component={Blocks}/>
+            <Route path='/cards' component={Cards}/>
+            <Route path='/forms' component={Forms}/>
             {/* <Route component={NotFound}/> */}
         </Switch>
     )

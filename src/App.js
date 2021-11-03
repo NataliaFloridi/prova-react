@@ -6,18 +6,15 @@ import Sidebar from './components/template/Sidebar/Sidebar';
 import { Routes } from "./Routes";
 import { BrowserRouter as Router } from "react-router-dom";
 
-
 function App() {
   return (
-      <>
-          <body class="sidebar-menu-collapsed">   
+      <>  
+      <Router>
         <Sidebar/>
         <Header/>
-        <Router>
-          <Routes/>
-        </Router>
-        <Footer/>
-        </body>   
+        <Routes/>
+      </Router>
+      <Footer/>
       </>
   );
 }
