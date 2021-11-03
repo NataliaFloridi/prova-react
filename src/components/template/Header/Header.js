@@ -1,6 +1,4 @@
 import React from "react"
-import 'bootstrap/dist/css/bootstrap.min.css'
-import './Header.css'
 import Button from "../../micro/Button/Button"
 import Input from "../../micro/Forms/Input/Input"
 
@@ -11,12 +9,12 @@ function Header(props) {
             <div className="header sticky-header">
                 <div className="menu-right">
                     <div className="navbar user-panel-top">
-                        {/* <div className="search-box">
+                        <div className="search-box">
                             <form action="#search-results.html" method="get">
                                 <Input className="search-input" placeholder="Search Here..." type="search" id="search" />
                                 <Button className="search-submit" value=""/><span className="fa fa-search"></span>
                             </form>
-                        </div> */}
+                        </div>
 
                         <div className="profile_details">
                             <ul>
