@@ -1,14 +1,13 @@
 import React from "react";
-import "./Index.css"
 import Header from "../../components/template/Header/Header";
 import Footer from "../../components/template/Footer/Footer";
 import Sidebar from "../../components/template/Sidebar/Sidebar";
 
-function Index(props){
+function Block(props){
 
     return(
         <>
-            <div> Index</div>
+            <div> Blocks</div>
             <Sidebar/>
             <Header/>
             <Footer/>
@@ -16,4 +15,4 @@ function Index(props){
     )
 }
 
-export default Index
+export default Block

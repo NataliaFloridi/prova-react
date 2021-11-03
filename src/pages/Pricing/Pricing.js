@@ -1,19 +1,18 @@
 import React from "react";
-import "./Index.css"
 import Header from "../../components/template/Header/Header";
 import Footer from "../../components/template/Footer/Footer";
 import Sidebar from "../../components/template/Sidebar/Sidebar";
 
-function Index(props){
+function Pricing(props) {
 
     return(
         <>
-            <div> Index</div>
+            <div>Pricing</div>
             <Sidebar/>
-            <Header/>
-            <Footer/>
+            <Header></Header>
+            <Footer></Footer>
         </>
     )
 }
 
-export default Index
+export default Pricing

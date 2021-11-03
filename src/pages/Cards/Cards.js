@@ -1,10 +1,9 @@
 import React from "react";
-import "./Index.css"
 import Header from "../../components/template/Header/Header";
 import Footer from "../../components/template/Footer/Footer";
 import Sidebar from "../../components/template/Sidebar/Sidebar";
 
-function Index(props){
+function Cards(props){
 
     return(
         <>
@@ -16,4 +15,4 @@ function Index(props){
     )
 }
 
-export default Index
+export default Cards
