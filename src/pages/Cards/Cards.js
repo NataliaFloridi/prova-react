@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import GridColumns from "./GridColumns/GridColumns";
-import CardColumns from "./CardColumns/CardColumns";
+import CardColumns from "../../components/macro/Cards/CardColumns"
+import GridColumns from "../../components/macro/Cards/GridColumns"
 
 
 function Cards(props) {

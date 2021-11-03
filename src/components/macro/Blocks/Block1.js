@@ -1,5 +1,5 @@
 import React from "react";
-import Template2 from "../../assets/images/template2.jpg"
+import Template2 from "../../../assets/images/template2.jpg"
 import { Link } from 'react-router-dom'
 
 

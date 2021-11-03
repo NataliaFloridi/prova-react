@@ -7,6 +7,7 @@ import Desk from "../../../assets/images/desk.jpg"
 function GridColumns(props) {
     return (
         <>
+         {/* <!-- /Grid Columns --> */}
             <div class="card card_border mb-5">
                 <div class="cards__heading">
                     <h3>Grid Columns</h3>
@@ -60,7 +61,7 @@ function GridColumns(props) {
                     </div>
                 </div>
             </div>
-            {/* <!-- /Grid Columns --> */}
+           
 
         </>
     )
