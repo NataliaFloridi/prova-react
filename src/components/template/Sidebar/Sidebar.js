@@ -5,7 +5,6 @@ function Sidebar(props) {
     return (
 
         <>
-            <div>Sidebar</div>
             <div classNameName="sidebar-menu sticky-sidebar-menu">
                 <div className="logo">
                     <h1><a href="index.html">Collective</a></h1>
